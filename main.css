@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body{
+  background-image: url("assets/images/fondo.jpg");
+}
+
+header {
+  display: inline-block;
+  outline: 1px solid black;
+  width: 100%;
+  clear: both;
+  background:
+}
+
+  img, button{
+    float: left;
+  }
+
+button{
+  margin: 5px;
+margin-top: 15px;
+padding: 10px;
+  float: right;
+  border-radius: 15%;
+
+}
+
+section {
+  margin: 50px;
+  display: block;
+  outline: 1px solid black;
+  height: 300px;
+
+}
+
+.lista{
+padding: 7px;
+background-color:
+
+}
+
+.campText{
+  padding: 5px 15px;
+  background-color: #5bae45;
+  color: #fff;
+}
+
+section p{
+
+padding: 10px;
+width: 91%;
+outline: none;
+font-family: sans-serif;
+
+}
+
+.containerParragraph:first-child{
+  font-weight: bold;
+}
+
+
+.container, .container2{
+  width: 20%;
+  box-sizing: border-box;
+  float: left;
+  padding: 5px;
+  display: inline-block;
+
+  background-color: #fff;
+  border-radius: 5%;
+}
+
+.active{
+
+    display: block;
+}
+
+.container2 {
+  margin-top: 30px;
+
+}
+
+.container{
+  outline: 1px solid red;
+
+}
