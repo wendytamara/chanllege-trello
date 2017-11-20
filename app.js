@@ -33,6 +33,23 @@ lista.addEventListener("click", insertForm);
             lista.setAttribute("placeholder", "Añadir una tarea");
             boton.setAttribute("value", "Añadir");
 
+            var tarea = document.createElement("textarea");
+            var btnAñadir = document.createElement("input");
+            btnAñadir.setAttribute("type", "submit");
+            btnAñadir.classList.add("campText");
+            btnAñadir.setAttribute("value", "Añadir");
+
+          container1.replaceChild(tarea, lista);
+          container1.replaceChild(btnAñadir, boton);
+
+        }
+
+          btnAñadir.addEventListener("click", insertContentList);
+          function insertContentList(event) {
+          contenTxtarea = document.createElement("p");
+          div.appendChild(contenTxtarea);
+          contenTxtarea.textContent = tarea.value;
+          tarea.value= "";
 
           }
 
