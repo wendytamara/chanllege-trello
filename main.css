@@ -6,7 +6,7 @@
 }
 
 body{
-  background-image: url("assets/images/fondo.jpg");
+  /* background-image: url("assets/images/fondo.jpg");  */
 }
 
 header {
@@ -26,7 +26,7 @@ button{
 margin-top: 15px;
 padding: 10px;
   float: right;
-  border-radius: 15%;
+  border-radius: 5px;
 
 }
 
@@ -38,16 +38,24 @@ section {
 
 }
 
-.lista{
+.ocuto{
 padding: 7px;
-background-color:
+background-color: #c3c3c3;
+border-radius: 5px;
+}
 
+.lista{
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
 }
 
 .campText{
   padding: 5px 15px;
   background-color: #5bae45;
   color: #fff;
+  border-radius: 5px;
+  border: none;
 }
 
 section p{
@@ -65,18 +73,21 @@ font-family: sans-serif;
 
 
 .container, .container2{
-  width: 20%;
+  width: 25%;
   box-sizing: border-box;
   float: left;
   padding: 5px;
   display: inline-block;
-
-  background-color: #fff;
+  /*background-color: #fff;*/
   border-radius: 5%;
 }
 
-.active{
+.desActive{
+  display: none;
 
+}
+
+.active{
     display: block;
 }
 
@@ -86,6 +97,6 @@ font-family: sans-serif;
 }
 
 .container{
-  outline: 1px solid red;
+/*background: violet; */
 
 }

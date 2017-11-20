@@ -2,23 +2,18 @@ window.addEventListener("load", function(){
 
 var lista = document.getElementById("lista");
 var inputOne = document.getElementById("inputOne");
-
 var container2 = document.getElementById("container2");
 var container1 = document.getElementById("container1");
-
-
 
 lista.addEventListener("click", insertForm);
       function insertForm(event){
 
       var boton = document.createElement("input");
-
       boton.setAttribute("type", "submit");
       boton.setAttribute("value", "Guardar");
       boton.classList.add("campText")
       lista.setAttribute("placeholder", "Nombre de lista");
       container1.appendChild(boton);
-
 
        lista.removeEventListener("click",insertForm);
 
@@ -37,7 +32,6 @@ lista.addEventListener("click", insertForm);
 
             lista.setAttribute("placeholder", "Añadir una tarea");
             boton.setAttribute("value", "Añadir");
-
 
 
           }
