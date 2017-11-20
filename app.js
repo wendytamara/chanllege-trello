@@ -56,26 +56,26 @@ lista.addEventListener("click", insertForm);
       }
 
 //funcion para insertar 2do formulario //
-
+var textListaFilaTwo = document.createElement("input");
+var botonFilaTwo = document.createElement("input");
 boton.addEventListener("click", insertFormFilaTwo);
     function insertFormFilaTwo(event){
-
-      var textListaFilaTwo = document.createElement("input");
-      var botonFilaTwo = document.createElement("input");
 
 
       botonFilaTwo.setAttribute("type", "submit");
       botonFilaTwo.setAttribute("value", "Guardar");
       textListaFilaTwo.setAttribute("placeholder", "Nombre de lista");
-
+      botonFilaTwo.classList.add("campText");
 
       container2.appendChild(textListaFilaTwo);
       container2.appendChild(botonFilaTwo);
 
-
-
 boton.removeEventListener("click",insertFormFilaTwo);
 
+}
+
+botonFilaTwo.addEventListener("click", InsertFormFilaTwo);
+function InsertFormFilaTwo(){
 
 }
 
